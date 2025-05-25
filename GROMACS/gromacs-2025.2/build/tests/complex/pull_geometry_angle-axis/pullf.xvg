@@ -1,0 +1,18 @@
+# This file was created Fri May 16 00:22:50 2025
+# Created by:
+#                      :-) GROMACS - gmx mdrun, 2025.2 (-:
+# 
+# Executable:   /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/bin/gmx
+# Data prefix:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2 (source tree)
+# Working dir:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/complex/pull_geometry_angle-axis
+# Command line:
+#   gmx mdrun -notunepme
+# gmx mdrun is part of G R O M A C S:
+#
+# GROMACS
+#
+@    title "Pull force"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Force (kJ/mol/nm, kJ/mol/rad)"
+@TYPE xy
+0.0000	0.144284

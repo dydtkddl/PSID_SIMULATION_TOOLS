@@ -1,0 +1,26 @@
+                      :-) GROMACS - gmx mdrun, 2025.2 (-:
+
+Executable:   /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/bin/gmx
+Data prefix:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2 (source tree)
+Working dir:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/complex/sw
+Command line:
+  gmx mdrun -ntmpi 1 -notunepme
+
+Reading file topol.tpr, VERSION 2025.2 (single precision)
+Changing nstlist from 10 to 25, rlist from 0.804 to 0.865
+
+Using 1 MPI thread
+Using 36 OpenMP threads 
+
+starting mdrun 'Water'
+20 steps,      0.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        1.713        0.048     3595.9
+                 (ns/day)    (hour/ns)
+Performance:       76.157        0.315
+
+Thanx for Using GROMACS - Have a Nice Day
+

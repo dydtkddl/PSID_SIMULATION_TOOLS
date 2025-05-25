@@ -1,0 +1,41 @@
+                      :-) GROMACS - gmx mdrun, 2025.2 (-:
+
+Executable:   /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/bin/gmx
+Data prefix:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2 (source tree)
+Working dir:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/complex/field
+Command line:
+  gmx mdrun -notunepme
+
+Reading file topol.tpr, VERSION 2025.2 (single precision)
+
+NOTE: Parallelization is limited by the small number of atoms,
+      only starting 6 thread-MPI ranks.
+      You can use the -nt and/or -ntmpi option to optimize the number of threads.
+
+Can not increase nstlist because an NVE ensemble is used
+Using 6 MPI threads
+Using 6 OpenMP threads per tMPI thread
+
+starting mdrun 'Water'
+10 steps,      0.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB was off during the run due to low measured imbalance.
+ Average load imbalance: 3.9%.
+ The balanceable part of the MD step is 25%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 1.0%.
+
+
+NOTE: 35 % of the run time was spent communicating energies,
+      you might want to increase some nst* mdp options
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.228        0.006     3577.1
+                 (ns/day)    (hour/ns)
+Performance:      148.867        0.161
+
+Thanx for Using GROMACS - Have a Nice Day
+

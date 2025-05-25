@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" time="0.464" timestamp="2025-05-16T00:22:31.410" name="AllTests">
+  <testsuite name="PullTest/PullIntegrationTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.46" timestamp="2025-05-16T00:22:31.414">
+    <testcase name="WithinTolerances/0" value_param="(&quot;spc216&quot;, &quot;umbrella-3D&quot;)" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/pull.cpp" line="186" status="run" result="completed" time="0.12" timestamp="2025-05-16T00:22:31.414" classname="PullTest/PullIntegrationTest" />
+    <testcase name="WithinTolerances/1" value_param="(&quot;spc216&quot;, &quot;umbrella-2D&quot;)" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/pull.cpp" line="186" status="run" result="completed" time="0.111" timestamp="2025-05-16T00:22:31.534" classname="PullTest/PullIntegrationTest" />
+    <testcase name="WithinTolerances/2" value_param="(&quot;spc216&quot;, &quot;constraint-flatbottom&quot;)" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/pull.cpp" line="186" status="run" result="completed" time="0.114" timestamp="2025-05-16T00:22:31.645" classname="PullTest/PullIntegrationTest" />
+    <testcase name="WithinTolerances/3" value_param="(&quot;spc216&quot;, &quot;transformation-coord-umbrella-3D&quot;)" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/pull.cpp" line="186" status="run" result="completed" time="0.113" timestamp="2025-05-16T00:22:31.760" classname="PullTest/PullIntegrationTest" />
+  </testsuite>
+</testsuites>

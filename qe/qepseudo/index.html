@@ -1,0 +1,16 @@
+<!doctype html> <html class="no-js" data-ng-app="materialsCloudApp"> <head> <meta charset="utf-8"> <title ng-bind="($title || 'Materials Cloud')">Materials Cloud</title> <meta name="description" content="Materials Cloud is built to enable the seamless sharing and dissemination of
+    resources in computational materials science, encompassing educational material, interactive tools,
+    simulation services, and curated and raw data."> <meta name="viewport" content="width=device-width"> <base href="/discover/"> <link rel="shortcut icon" href="images/0b7f3879.favicon.png" type="image/png"> <link rel="stylesheet" href="styles/vendor1.css"> <link rel="stylesheet" href="styles/vendor2.css"> <link rel="stylesheet" href="styles/css/77ee0889.mcloud_theme.min.css"> <link rel="stylesheet" href="styles/theme.css"> </head> <body> <div class="splash" ng-cloak=""> <div class="mcloud-booting-message"> <div class="mcloud-boot-spinner"></div> </div> </div> <div ng-cloak=""> <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser.
+        Please <a href="http://browsehappy.com/">upgrade your browser</a>
+        to improve your experience.</p>
+    <![endif]--> <!-- Application body --> <div ui-view=""> </div> <!-- Add script Plausible and pass domain name as parameter --> <script type="text/javascript"> var header = document.getElementsByTagName("head")[0];
+        var plausible = document.createElement("script");
+        var domain_name = window.location.hostname;
+        var rollup_name = "plausible-rollup.materialscloud.org";
+
+        plausible.async = "";
+        plausible.defer = "";
+        plausible.dataset["domain"] = domain_name + "," + rollup_name;
+        plausible.src = "https://plausible.io/js/plausible.js";
+        header.appendChild(plausible); </script> <!-- end Plausible analytics --> <script src="scripts/d1bf61e9.vendor1.js"></script> <script src="scripts/ec194f82.vendor2.js"></script> <script src="scripts/5c881ef8.config.js"></script> <script src="scripts/946e1ec5.app.js"></script> <script src="scripts/controllers/568919f5.message.js"></script> <script src="scripts/services/9ec58e7b.authservice.js"></script> <script src="scripts/services/a8d1201a.utils.js"></script> <script src="scripts/services/820c77c9.mcloudconfig.js"></script> <script src="scripts/services/adabf1cf.storageservice.js"></script> <script src="scripts/services/daf21fbf.messageservice.js"></script> </div> 

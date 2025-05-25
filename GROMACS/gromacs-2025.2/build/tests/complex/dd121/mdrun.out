@@ -1,0 +1,40 @@
+                      :-) GROMACS - gmx mdrun, 2025.2 (-:
+
+Executable:   /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/bin/gmx
+Data prefix:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2 (source tree)
+Working dir:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/complex/dd121
+Command line:
+  gmx mdrun -ntmpi 12 -notunepme
+
+Reading file topol.tpr, VERSION 2025.2 (single precision)
+Can not increase nstlist because verlet-buffer-tolerance is not set or used
+Update groups can not be used for this system because an incompatible virtual site type is used
+
+Using 12 MPI threads
+Using 3 OpenMP threads per tMPI thread
+
+starting mdrun 'Protein'
+20 steps,      0.1 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB was turned on during the run due to measured imbalance.
+ Average load imbalance: 13.1%.
+ The balanceable part of the MD step is 21%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.7%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 % Y 0 %
+
+
+NOTE: 10 % of the run time was spent in domain decomposition,
+      11 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.771        0.021     3590.1
+                 (ns/day)    (hour/ns)
+Performance:      422.243        0.057
+
+Thanx for Using GROMACS - Have a Nice Day
+

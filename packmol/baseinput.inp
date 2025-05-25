@@ -1,0 +1,17 @@
+tolerance 2.0
+filetype xyz
+output case_{index}.xyz
+
+structure ../00_Alanine_zwitterion.xyz
+  number 1
+  center                 # ← 기하학적 중심을 기준으로 이동
+  fixed 0. 0. 0. 0. 0. 0.
+end structure
+
+structure ../water.xyz
+  number 7
+  inside sphere 0. 0. 0. 7.0
+end structure
+
+seed {seed}
+randominitialpoint

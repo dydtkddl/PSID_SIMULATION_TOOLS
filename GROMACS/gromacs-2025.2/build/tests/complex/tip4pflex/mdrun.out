@@ -1,0 +1,46 @@
+                      :-) GROMACS - gmx mdrun, 2025.2 (-:
+
+Executable:   /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/bin/gmx
+Data prefix:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2 (source tree)
+Working dir:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/complex/tip4pflex
+Command line:
+  gmx mdrun -notunepme
+
+Reading file topol.tpr, VERSION 2025.2 (single precision)
+
+NOTE: Parallelization is limited by the small number of atoms,
+      only starting 32 thread-MPI ranks.
+      You can use the -nt and/or -ntmpi option to optimize the number of threads.
+
+Can not increase nstlist because an NVE ensemble is used
+Update groups can not be used for this system because atoms that are (in)directly constrained together are interdispersed with other atoms
+
+Using 32 MPI threads
+Using 1 OpenMP thread per tMPI thread
+
+starting mdrun '512 TIP/4P Flexible'
+20 steps,      0.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB was turned on during the run due to measured imbalance.
+ Average load imbalance: 22.3%.
+ The balanceable part of the MD step is 19%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 4.3%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 % Y 0 %
+ Average PME mesh/force load: 1.040
+ Part of the total run time spent waiting due to PP/PME imbalance: 1.3 %
+
+
+NOTE: 28 % of the run time was spent communicating energies,
+      you might want to increase some nst* mdp options
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.603        0.019     3106.7
+                 (ns/day)    (hour/ns)
+Performance:       46.772        0.513
+
+Thanx for Using GROMACS - Have a Nice Day
+

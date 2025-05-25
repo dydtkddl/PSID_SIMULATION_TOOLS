@@ -1,0 +1,11 @@
+prefix=/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/src/external/build-fftw/fftwBuild-prefix
+exec_prefix=${prefix}
+libdir=/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/src/external/build-fftw/fftwBuild-prefix/lib
+includedir=${prefix}/include
+
+Name: FFTW
+Description: fast Fourier transform library
+Version: 3.3.10
+Libs: -L${libdir} -lfftw3f 
+Libs.private: -lm
+Cflags: -I${includedir}

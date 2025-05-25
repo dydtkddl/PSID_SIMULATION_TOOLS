@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" time="0.001" timestamp="2025-05-16T00:21:52.845" name="AllTests">
+  <testsuite name="TimingTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2025-05-16T00:21:52.845">
+    <testcase name="ElementCountingWorks" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/timing/tests/timing.cpp" line="83" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.845" classname="TimingTest" />
+    <testcase name="ElementNoCountingWorks" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/timing/tests/timing.cpp" line="93" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.845" classname="TimingTest" />
+    <testcase name="SubElementCountingWorks" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/timing/tests/timing.cpp" line="107" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.845" classname="TimingTest" />
+    <testcase name="SubElementNoCountingWorks" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/timing/tests/timing.cpp" line="120" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.845" classname="TimingTest" />
+    <testcase name="RunWallCycle" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/timing/tests/timing.cpp" line="137" status="run" result="completed" time="0.001" timestamp="2025-05-16T00:21:52.845" classname="TimingTest" />
+    <testcase name="RunWallCycleSub" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/timing/tests/timing.cpp" line="159" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.846" classname="TimingTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/home/yongsang/anaconda3/bin/cmake;-P;/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/download-fftwBuild.cmake;COMMAND;/home/yongsang/anaconda3/bin/cmake;-P;/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/verify-fftwBuild.cmake;COMMAND;/home/yongsang/anaconda3/bin/cmake;-P;/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-stamp/extract-fftwBuild.cmake
+source_dir=/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild
+work_dir=/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/src/external/build-fftw/fftwBuild-prefix/src
+url(s)=http://www.fftw.org/fftw-3.3.10.tar.gz
+hash=MD5=8ccbf6a5ea78a16dbc3e1306e234cc5c
+no_extract=
+

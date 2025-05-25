@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="0" disabled="0" errors="0" time="0" timestamp="2025-05-16T00:21:52.338" name="AllTests">
+  <testsuite name="HashedMap" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2025-05-16T00:21:52.338">
+    <testcase name="InsertsFinds" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/domdec/tests/hashedmap.cpp" line="76" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.338" classname="HashedMap" />
+    <testcase name="NegativeKeysWork" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/domdec/tests/hashedmap.cpp" line="90" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.338" classname="HashedMap" />
+    <testcase name="InsertsErases" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/domdec/tests/hashedmap.cpp" line="103" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.338" classname="HashedMap" />
+    <testcase name="InsertsOrAssigns" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/domdec/tests/hashedmap.cpp" line="116" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.338" classname="HashedMap" />
+    <testcase name="Clears" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/domdec/tests/hashedmap.cpp" line="131" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.338" classname="HashedMap" />
+    <testcase name="LinkedEntries" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/domdec/tests/hashedmap.cpp" line="146" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.338" classname="HashedMap" />
+    <testcase name="ResizesTable" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/domdec/tests/hashedmap.cpp" line="186" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.338" classname="HashedMap" />
+  </testsuite>
+  <testsuite name="LocalAtomSetManager" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2025-05-16T00:21:52.338">
+    <testcase name="CanAddEmptyLocalAtomSet" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/domdec/tests/localatomsetmanager.cpp" line="69" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.338" classname="LocalAtomSetManager" />
+    <testcase name="CanAddandReadLocalAtomSetIndices" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/domdec/tests/localatomsetmanager.cpp" line="79" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:52.338" classname="LocalAtomSetManager" />
+  </testsuite>
+</testsuites>

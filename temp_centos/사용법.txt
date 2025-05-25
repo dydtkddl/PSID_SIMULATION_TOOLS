@@ -1,0 +1,2 @@
+sudo rpm -Uvh *.rpm
+sudo scl enable devtoolset-11 bash

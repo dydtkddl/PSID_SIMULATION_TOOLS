@@ -1,0 +1,39 @@
+                      :-) GROMACS - gmx mdrun, 2025.2 (-:
+
+Executable:   /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/bin/gmx
+Data prefix:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2 (source tree)
+Working dir:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/complex/dec+water
+Command line:
+  gmx mdrun -nb cpu -notunepme
+
+Reading file topol.tpr, VERSION 2025.2 (single precision)
+Multiple energy groups is not implemented for GPUs, falling back to the CPU. For better performance, run on the GPU without energy groups and then do gmx mdrun -rerun option on the trajectory with an energy group .tpr file.
+
+NOTE: Parallelization is limited by the small number of atoms,
+      only starting 16 thread-MPI ranks.
+      You can use the -nt and/or -ntmpi option to optimize the number of threads.
+
+Changing nstlist from 5 to 20, rlist from 1.038 to 1.21
+
+
+Update groups can not be used for this system because there are three or more consecutively coupled constraints
+
+Using 16 MPI threads
+Using 2 OpenMP threads per tMPI thread
+
+starting mdrun 'Olie op de Golven'
+10 steps,      0.0 ps.
+
+Writing final coordinates.
+
+NOTE: 8 % of the run time was spent in domain decomposition,
+      11 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.394        0.012     3184.5
+                 (ns/day)    (hour/ns)
+Performance:      153.660        0.156
+
+Thanx for Using GROMACS - Have a Nice Day
+

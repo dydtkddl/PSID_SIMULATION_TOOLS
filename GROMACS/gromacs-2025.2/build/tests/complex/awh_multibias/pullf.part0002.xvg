@@ -1,0 +1,26 @@
+# This file was created Fri May 16 00:22:32 2025
+# Created by:
+#                      :-) GROMACS - gmx mdrun, 2025.2 (-:
+# 
+# Executable:   /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/bin/gmx
+# Data prefix:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2 (source tree)
+# Working dir:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/complex/awh_multibias
+# Command line:
+#   gmx mdrun -notunepme -cpi /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/regressiontests-2025.2/complex/awh_multibias/continue -noappend
+# gmx mdrun is part of G R O M A C S:
+#
+# GROMACS
+#
+@    title "Pull force"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Force (kJ/mol/nm, kJ/mol/rad)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "1"
+@ s1 legend "2"
+0.1000	148.324	-0.559223

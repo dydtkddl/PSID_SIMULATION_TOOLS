@@ -1,0 +1,25 @@
+# This file was created Fri May 16 00:21:53 2025
+# Created by:
+#                     :-) GROMACS - gmxana-test, 2025.2 (-:
+# 
+# Executable:   /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/bin/gmxana-test
+# Data prefix:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2 (source tree)
+# Working dir:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/src/gromacs/gmxana/tests
+# Command line:
+#   gmxana-test --gtest_output=xml:/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/Testing/Temporary/GmxAnaTest.xml
+# gmxana-test is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "Minimum Distance"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Distance (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "atoms12-atom3"
+0.000000e+00  5.000000e-01

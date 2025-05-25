@@ -1,0 +1,39 @@
+                      :-) GROMACS - gmx mdrun, 2025.2 (-:
+
+Executable:   /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/bin/gmx
+Data prefix:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2 (source tree)
+Working dir:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/essentialdynamics/flooding1
+Command line:
+  gmx mdrun -ntmpi 8 -ei /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/regressiontests-2025.2/essentialdynamics/flooding1/sam.edi -eo flooding1.xvg
+
+Reading file topol.tpr, VERSION 2025.2 (single precision)
+Changing nstlist from 25 to 50, rlist from 1.05 to 1.115
+
+Update groups can not be used for this system because there are three or more consecutively coupled constraints
+
+Using 8 MPI threads
+Using 4 OpenMP threads per tMPI thread
+
+ED: Initializing essential dynamics constraints.
+ED: Reading edi file /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/regressiontests-2025.2/essentialdynamics/flooding1/sam.edi
+ED: Found 1 ED group.
+ED: Flooding 2 eigenvectors.
+ED: Initial RMSD from reference after fit = 0.254147 nm
+ED: Setting center of flooding potential (0 = average structure)
+ED: A (possibly changing) ref. projection will define the flooding potential center.
+starting mdrun 'GUANYLIN (A-FORM) (ENDOGENOUS LIGAND TO THE HEAT STABLE in water'
+0 steps,      0.0 ps.
+
+NOTE: 23 % of the run time was spent in domain decomposition,
+      47 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.119        0.004     3134.6
+                 (ns/day)    (hour/ns)
+Performance:       45.681        0.525
+
+Thanx for Using GROMACS - Have a Nice Day
+
+ED: EV 1 flooding potential center:  5.0000e-01 (adding  0.0000e+00/timestep)
+ED: EV 2 flooding potential center: -1.0000e-01 (adding  0.0000e+00/timestep)

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="12" failures="0" disabled="0" errors="0" time="0.08" timestamp="2025-05-16T00:22:02.928" name="AllTests">
+  <testsuite name="MdrunTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.005" timestamp="2025-05-16T00:22:02.928">
+    <testcase name="WritesHelp" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/helpwriting.cpp" line="64" status="run" result="completed" time="0.005" timestamp="2025-05-16T00:22:02.928" classname="MdrunTest" />
+  </testsuite>
+  <testsuite name="WithDifferentOutputGroupSettings/MdrunCompressedXOutput" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.017" timestamp="2025-05-16T00:22:02.934">
+    <testcase name="ExitsNormally/0" value_param="&quot;&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/compressed_x_output.cpp" line="71" status="run" result="completed" time="0.008" timestamp="2025-05-16T00:22:02.934" classname="WithDifferentOutputGroupSettings/MdrunCompressedXOutput" />
+    <testcase name="ExitsNormally/1" value_param="&quot;compressed-x-grps = System\n&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/compressed_x_output.cpp" line="71" status="run" result="completed" time="0.004" timestamp="2025-05-16T00:22:02.943" classname="WithDifferentOutputGroupSettings/MdrunCompressedXOutput" />
+    <testcase name="ExitsNormally/2" value_param="&quot;compressed-x-grps = SecondWaterMolecule\n&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/compressed_x_output.cpp" line="71" status="run" result="completed" time="0.004" timestamp="2025-05-16T00:22:02.947" classname="WithDifferentOutputGroupSettings/MdrunCompressedXOutput" />
+  </testsuite>
+  <testsuite name="Argon12/OutputFiles" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.009" timestamp="2025-05-16T00:22:02.955">
+    <testcase name="FilesArePresent/0" value_param="(&quot;argon12&quot;, &quot;md&quot;)" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/outputfiles.cpp" line="82" status="run" result="completed" time="0.004" timestamp="2025-05-16T00:22:02.955" classname="Argon12/OutputFiles" />
+    <testcase name="FilesArePresent/1" value_param="(&quot;argon12&quot;, &quot;md-vv&quot;)" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/outputfiles.cpp" line="82" status="run" result="completed" time="0.004" timestamp="2025-05-16T00:22:02.959" classname="Argon12/OutputFiles" />
+  </testsuite>
+  <testsuite name="MdrunCanWrite/Trajectories" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.019" timestamp="2025-05-16T00:22:02.971">
+    <testcase name="ThatDifferInNstxout/0" value_param="&quot;1&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/trajectory_writing.cpp" line="100" status="run" result="completed" time="0.007" timestamp="2025-05-16T00:22:02.971" classname="MdrunCanWrite/Trajectories" />
+    <testcase name="ThatDifferInNstxout/1" value_param="&quot;2&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/trajectory_writing.cpp" line="100" status="run" result="completed" time="0.006" timestamp="2025-05-16T00:22:02.978" classname="MdrunCanWrite/Trajectories" />
+    <testcase name="ThatDifferInNstxout/2" value_param="&quot;3&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/trajectory_writing.cpp" line="100" status="run" result="completed" time="0.005" timestamp="2025-05-16T00:22:02.984" classname="MdrunCanWrite/Trajectories" />
+  </testsuite>
+  <testsuite name="MdrunCanWrite/NptTrajectories" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.015" timestamp="2025-05-16T00:22:02.992">
+    <testcase name="WithDifferentPcoupl/0" value_param="&quot;no&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/trajectory_writing.cpp" line="123" status="run" result="completed" time="0.004" timestamp="2025-05-16T00:22:02.992" classname="MdrunCanWrite/NptTrajectories" />
+    <testcase name="WithDifferentPcoupl/1" value_param="&quot;Berendsen&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/trajectory_writing.cpp" line="123" status="run" result="completed" time="0.005" timestamp="2025-05-16T00:22:02.997" classname="MdrunCanWrite/NptTrajectories" />
+    <testcase name="WithDifferentPcoupl/2" value_param="&quot;Parrinello-Rahman&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/trajectory_writing.cpp" line="123" status="run" result="completed" time="0.005" timestamp="2025-05-16T00:22:03.003" classname="MdrunCanWrite/NptTrajectories" />
+  </testsuite>
+</testsuites>

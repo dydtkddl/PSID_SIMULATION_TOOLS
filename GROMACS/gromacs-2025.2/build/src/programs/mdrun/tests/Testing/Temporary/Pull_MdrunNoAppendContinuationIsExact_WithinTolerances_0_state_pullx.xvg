@@ -1,0 +1,18 @@
+# This file was created Fri May 16 00:22:04 2025
+# Created by:
+#                    :-) GROMACS - mdrun-io-test, 2025.2 (-:
+# 
+# Executable:   /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/bin/mdrun-io-test
+# Data prefix:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2 (source tree)
+# Working dir:  /home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/src/programs/mdrun/tests
+# Command line:
+#   mdrun-io-test -ntomp 2 --gtest_output=xml:/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/Testing/Temporary/MdrunIOTests.xml
+# mdrun-io-test is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "Pull COM"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Position (nm)"
+@TYPE xy
+0.0000	1.11157

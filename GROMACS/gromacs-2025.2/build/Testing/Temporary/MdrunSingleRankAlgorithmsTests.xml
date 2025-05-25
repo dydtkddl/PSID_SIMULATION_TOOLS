@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="0" errors="0" time="1.067" timestamp="2025-05-16T00:22:06.810" name="AllTests">
+  <testsuite name="DispersionCorrectionTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.026" timestamp="2025-05-16T00:22:06.814">
+    <testcase name="DispersionCorrectionCanRun" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/dispersion_correction.cpp" line="62" status="run" result="completed" time="0.026" timestamp="2025-05-16T00:22:06.814" classname="DispersionCorrectionTest" />
+  </testsuite>
+  <testsuite name="OriresTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.261" timestamp="2025-05-16T00:22:06.843">
+    <testcase name="OriresCanRun" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/orires.cpp" line="62" status="run" result="completed" time="0.261" timestamp="2025-05-16T00:22:06.843" classname="OriresTest" />
+  </testsuite>
+  <testsuite name="EwaldSurfaceTerm/EwaldSurfaceTermTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.769" timestamp="2025-05-16T00:22:07.108">
+    <testcase name="WithinTolerances/0" value_param="&quot;3DC&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/ewaldsurfaceterm.cpp" line="93" status="run" result="completed" time="0.563" timestamp="2025-05-16T00:22:07.108" classname="EwaldSurfaceTerm/EwaldSurfaceTermTest" />
+    <testcase name="WithinTolerances/1" value_param="&quot;epsilon-surface-constraint&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/ewaldsurfaceterm.cpp" line="93" status="run" result="completed" time="0" timestamp="2025-05-16T00:22:07.672" classname="EwaldSurfaceTerm/EwaldSurfaceTermTest" />
+    <testcase name="WithinTolerances/2" value_param="&quot;epsilon-surface&quot;" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/programs/mdrun/tests/ewaldsurfaceterm.cpp" line="93" status="run" result="completed" time="0.205" timestamp="2025-05-16T00:22:07.672" classname="EwaldSurfaceTerm/EwaldSurfaceTermTest" />
+  </testsuite>
+</testsuites>

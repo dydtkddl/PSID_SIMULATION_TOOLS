@@ -1,0 +1,10 @@
+Generated 2 of the 3 non-bonded parameter combinations
+
+Excluding 1 bonded neighbours molecule type 'DIP'
+
+Taking velocities from '/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/build/tests/regressiontests-2025.2/complex/nbnxn_rzero/conf.gro', all velocities are zero
+Analysing residue names:
+There are:     2      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+This run will generate roughly 0 Mb of data

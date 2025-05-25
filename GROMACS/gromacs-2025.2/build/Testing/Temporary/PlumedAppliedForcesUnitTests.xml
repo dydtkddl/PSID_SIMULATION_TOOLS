@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="8" failures="0" disabled="0" errors="0" time="0.115" timestamp="2025-05-16T00:21:51.804" name="AllTests">
+  <testsuite name="PlumedOptionsTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0.115" timestamp="2025-05-16T00:21:51.804">
+    <testcase name="defaultConstructor" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/plumed/tests/plumedOptions.cpp" line="67" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.804" classname="PlumedOptionsTest" />
+    <testcase name="setTimeStep" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/plumed/tests/plumedOptions.cpp" line="77" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.804" classname="PlumedOptionsTest" />
+    <testcase name="setStartingBehavior" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/plumed/tests/plumedOptions.cpp" line="90" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.804" classname="PlumedOptionsTest" />
+    <testcase name="setPlumedFile" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/plumed/tests/plumedOptions.cpp" line="104" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.804" classname="PlumedOptionsTest" />
+    <testcase name="setPlumedFileNotSet" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/plumed/tests/plumedOptions.cpp" line="118" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.804" classname="PlumedOptionsTest" />
+    <testcase name="setEnsembleTemperature_data" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/plumed/tests/plumedOptions.cpp" line="134" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.804" classname="PlumedOptionsTest" />
+    <testcase name="setEnsembleTemperature_notConstant" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/plumed/tests/plumedOptions.cpp" line="153" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.804" classname="PlumedOptionsTest" />
+    <testcase name="setTopology" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/plumed/tests/plumedOptions.cpp" line="220" status="run" result="completed" time="0.115" timestamp="2025-05-16T00:21:51.804" classname="PlumedOptionsTest" />
+  </testsuite>
+</testsuites>

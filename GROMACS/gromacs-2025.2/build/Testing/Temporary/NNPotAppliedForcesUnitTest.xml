@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="12" failures="0" disabled="0" errors="0" time="0.014" timestamp="2025-05-16T00:21:51.951" name="AllTests">
+  <testsuite name="NNPotTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2025-05-16T00:21:51.951">
+    <testcase name="ForceProviderLackingInputThrows" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpot.cpp" line="105" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.951" classname="NNPotTest" />
+  </testsuite>
+  <testsuite name="NNPotOptionsTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2025-05-16T00:21:51.951">
+    <testcase name="DefaultParameters" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpotoptions.cpp" line="136" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.951" classname="NNPotOptionsTest" />
+    <testcase name="OptionSetsActive" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpotoptions.cpp" line="151" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.951" classname="NNPotOptionsTest" />
+    <testcase name="OutputNoDefaultValuesWhenInactive" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpotoptions.cpp" line="158" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.951" classname="NNPotOptionsTest" />
+    <testcase name="OutputDefaultValuesWhenActive" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpotoptions.cpp" line="178" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.952" classname="NNPotOptionsTest" />
+    <testcase name="InternalsToKvtAndBack" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpotoptions.cpp" line="202" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.952" classname="NNPotOptionsTest" />
+  </testsuite>
+  <testsuite name="NNPotTopologyPreprocessorTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0.014" timestamp="2025-05-16T00:21:51.952">
+    <testcase name="CanConstruct" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpottopologypreprocessor.cpp" line="153" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.952" classname="NNPotTopologyPreprocessorTest" />
+    <testcase name="FourWatersFirstInQMRegion" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpottopologypreprocessor.cpp" line="159" status="run" result="completed" time="0.002" timestamp="2025-05-16T00:21:51.952" classname="NNPotTopologyPreprocessorTest" />
+    <testcase name="FourWatersSecondAndFourthInQMRegion" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpottopologypreprocessor.cpp" line="178" status="run" result="completed" time="0.001" timestamp="2025-05-16T00:21:51.954" classname="NNPotTopologyPreprocessorTest" />
+    <testcase name="AlanineDipeptideWithLinkAtomsNoConstraints" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpottopologypreprocessor.cpp" line="197" status="run" result="completed" time="0.004" timestamp="2025-05-16T00:21:51.956" classname="NNPotTopologyPreprocessorTest" />
+    <testcase name="AlanineDipeptideWithLinkAtomsWithConstraints" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpottopologypreprocessor.cpp" line="215" status="run" result="completed" time="0.005" timestamp="2025-05-16T00:21:51.961" classname="NNPotTopologyPreprocessorTest" />
+  </testsuite>
+  <testsuite name="NNPotForceProviderTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2025-05-16T00:21:51.966">
+    <testcase name="CanConstruct" file="/home/yongsang/Research/PSID_server_room/GROMACS/gromacs-2025.2/src/gromacs/applied_forces/nnpot/tests/nnpotforceprovider.cpp" line="175" status="run" result="completed" time="0" timestamp="2025-05-16T00:21:51.966" classname="NNPotForceProviderTest" />
+  </testsuite>
+</testsuites>
