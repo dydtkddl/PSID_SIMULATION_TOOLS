@@ -1,0 +1,140 @@
+# general rule for shifted vs truncated
+shifted
+# general rule tailcorrections
+no
+# number of defined interactions
+131
+# type interaction, parameters.    IMPORTANT: define shortest matches first, so that more specific ones overwrites these
+O_             lennard-jones    48.1581   3.03315      // DREIiDING S.L. Mayo et al., J. Phys. Chem. 1990, 94, 8897-8909.
+N_             lennard-jones    38.9492   3.26256      // DREIDING
+C_             lennard-jones    47.8562   3.47299      // DREIDING
+F_             lennard-jones    36.4834   3.0932       // DREIDING
+B_             lennard-jones    47.8058   3.58141      // DREIDING
+P_             lennard-jones   161.03     3.69723      // DREIDING
+S_             lennard-jones   173.107    3.59032      // DREIDING
+H_             lennard-jones     7.64893  2.84642      // DREIDING
+I_              lennard-jones   170.57    4.01
+He_            lennard-jones   10.9       2.64
+Cl_            lennard-jones   142.562    3.51932      // DREIDING
+Br_            lennard-jones   186.191    3.51905      // DREIDING
+Kr_             lennard-jones   110.69    3.69
+Xe_             lennard-jones   167.04    3.92  
+Se_             lennard-jones   146.42    3.75
+U_              lennard-jones   11.07     3.02
+W_              lennard-jones   33.71     2.73
+Y_              lennard-jones   36.23     2.98
+K_              lennard-jones   17.61     3.4
+V_             lennard-jones     8.05151  2.80099      // UFF
+Ar_             lennard-jones   93.08     3.45
+Al_            lennard-Jones   155.998    3.91105      // DREIDING
+Si_            lennard-Jones   155.998    3.80414      // DREIDING
+Zn_            lennard-jones    62.3992   2.46155      // UFF A.K. Rappé et al., J. Am. Chem. Soc. 1992, 114, 10024-10035.
+Be_            lennard-jones    42.7736   2.44552      // UFF
+Cr_            lennard-jones     7.54829  2.69319      // UFF
+Fe_            lennard-jones   27.68	  4.04        
+Mn_            lennard-jones     6.54185  2.63795      // UFF
+Cu_            lennard-jones     2.5161   3.11369      // UFF
+Co_            lennard-jones     7.04507  2.55866      // UFF
+Ga_            lennard-jones   208.836    3.90481      // UFF
+Ti_            lennard-jones     8.55473  2.8286       // UFF
+Sc_            lennard-jones     9.56117  2.93551      // UFF
+Ni_            lennard-jones     7.54829  2.52481      // UFF
+Zr_            lennard-jones    34.7221   2.78317      // UFF
+Mg_            lennard-jones    55.8574   2.69141      // UFF
+Ne_            lennard-jones    21.1352   2.88918      // UFF
+Ag_            lennard-jones    18.1159   2.80455      // UFF
+In_            lennard-jones   301.428    3.97608      // UFF
+Cd_            lennard-jones   114.734    2.53728      // UFF
+Sb_            lennard-jones   225.946    3.93777      // UFF
+Te_            lennard-jones   200.281    3.98232      // UFF
+Ac_	            lennard-jones	16.6	  3.1
+Al_	            lennard-jones	156	      3.91
+Am_	            lennard-jones	7.04	  3.01
+As_	            lennard-jones	155.47	  3.77
+At_	            lennard-jones	142.89	  4.23
+Au_	            lennard-jones	19.62	  2.93
+Ba_	            lennard-jones	183.15	  3.3
+Be_	            lennard-jones	42.77	  2.45
+Bi_	            lennard-jones	260.63	  3.89
+Bk_	            lennard-jones	6.54	  2.97
+Ca_	            lennard-jones	25.16	  3.09
+Ce_	            lennard-jones	6.54	  3.17
+Cf_	            lennard-jones	6.54	  2.95
+Cm_	            lennard-jones	6.54	  2.96
+Cs_	            lennard-jones	22.64	  4.02
+Dy_	            lennard-jones	3.52	  3.02
+Eu_	            lennard-jones	4.03	  3.11
+Er_	            lennard-jones	3.52	  3.05
+Es_	            lennard-jones	6.04	  2.93
+Fm_	            lennard-jones	6.04	  2.93
+Fr_	            lennard-jones	25.16	  4.37
+Ge_	            lennard-jones	190.69	  3.81
+Gd_	            lennard-jones	4.53  	  3
+Hf_	            lennard-jones	36.23	  2.8
+Hg_	            lennard-jones	193.71	  2.41
+Ho_	            lennard-jones	3.52	  3.04
+Ir_	            lennard-jones	36.73	  2.53
+La_	            lennard-jones	8.55	  3.14
+Li_	            lennard-jones	12.58	  2.18
+Lu_	            lennard-jones	20.63	  3.24
+Lw_	            lennard-jones	5.53	  2.88
+Md_	            lennard-jones	5.53	  2.92
+Mo_	            lennard-jones	28 	      2.72
+Na_	            lennard-jones	15 	      2.66
+Nb_	            lennard-jones	29.69	  2.82
+Nd_	            lennard-jones	5.03	  3.18
+No_	            lennard-jones	5.53	  2.89
+Np_	            lennard-jones	9.56	  3.05
+Os_	            lennard-jones	18.62	  2.78
+Pa_	            lennard-jones	11.07	  3.05
+Pb_	            lennard-jones	333.59	  3.83
+Pd_	            lennard-jones	24.15	  2.58
+Pm_	            lennard-jones	4.53	  3.16
+Po_	            lennard-jones	163.52	  4.2
+Pr_	            lennard-jones	5.03	  3.21
+Pt_	            lennard-jones	40.25	  2.45
+Pu_	            lennard-jones	8.05	  3.05
+Ra_	            lennard-jones	203.27	  3.28
+Rb_	            lennard-jones	20.13	  3.67
+Re_	            lennard-jones	33.21	  2.63
+Rh_	            lennard-jones	26.67	  2.61
+Rn_	            lennard-jones	124.78	  4.25
+Ru_	            lennard-jones	28.18	  2.64
+Sm_	            lennard-jones	4.03	  3.14
+Sn_	            lennard-jones	285.28	  3.91
+Sr_	            lennard-jones	118.24	  3.24
+Ta_	            lennard-jones	40.75	  2.82
+Tb_	            lennard-jones	3.52	  3.07
+Tc_	            lennard-jones	24.15	  2.67
+Th_	            lennard-jones	13.08	  3.03
+Tl_	            lennard-jones	342.14	  3.87
+Tm_	            lennard-jones	3.02	  3.01
+Yb_	            lennard-jones	114.72	  2.99
+Zn_	            lennard-jones	27.68	  4.04
+He             lennard-jones    10.9      2.64         // J.O. Hirschfelder et al., Molecular Theory of Gases and Liquids, Wiley, New York, 1954, p. 1114.
+O_co2          lennard-jones    79.0      3.050        // A. Garcia-Sanchez et al., J. Phys. Chem. C 2009, 113, 8814-8820.
+C_co2          lennard-jones    27.0      2.800        // idem
+N_n2           lennard-jones    38.298    3.306        // A. Martin-Calvo et al. , Phys. Chem. Chem. Phys. 2011, 13, 11165-11174.
+N_com          none                                    // idem
+O_o2           lennard-jones    49.0      3.020        // A. Martin-Calvo et al. , Phys. Chem. Chem. Phys. 2011, 13, 11165-11174.
+O_com          none                                    //
+Ar             lennard-jones   124.070    3.38         // A. Martin-Calvo et al. , Phys. Chem. Chem. Phys. 2011, 13, 11165-11174.
+CH4_sp3        lennard-jones    158.5     3.72         // M. G. Martin et al., J. Chem. Phys. 2001, 114, 7174-7181.
+CH3_sp3        lennard-jones    98        3.75         // D. Dubbeldam et al., J. Phys. Chem. B, 108(33), 12301-12313
+CH2_sp3        lennard-jones    46.0      3.95         // idem
+CH_sp3         lennard-jones    17.0      4.67         // idem
+C_sp3          lennard-jones     0.8      6.38         // idem
+CH2_sp2        lennard-jones     93.0     3.685
+CH_sp2         lennard-jones     53.0     3.74
+Ow             lennard-jones    89.633    3.097
+H_h2           lennard-jones    36.7      2.958
+H_com		   none
+N_nh3          lennard-jones    185.00    3.420
+H_nh3          lennard-jones    1.0       1.0
+M_nh3          lennard-jones    1.0       1.0
+C_benz         lennard-jones    30.70     3.60
+H_benz         lennard-jones    25.45     2.36
+Si			   HARD_SPHERE		1.0
+Al			   HARD_SPHERE		1.0
+# general mixing rule for Lennard-Jones
+Lorentz-Berthelot
