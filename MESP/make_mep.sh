@@ -14,7 +14,7 @@ run_one() {
   echo -e "$INPUT_SEQUENCE" | orca_plot "$INPUT.gbw" -i
 
   # Step 2: python mep.py 실행
-  python ${AX}/mep.py "$INPUT" 120
+  python /home/yongsang/PSID_SIMULATION_TOOLS/MESP/mep.py "$INPUT" 120
 }
 
 # -all 옵션: 현재 디렉토리 모든 .gbw 처리
